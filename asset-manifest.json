@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Han-Zhai-Module-20-React-Portfolio/static/css/main.0bf303dd.chunk.css",
+    "main.js": "/Han-Zhai-Module-20-React-Portfolio/static/js/main.d1a1b2f6.chunk.js",
+    "main.js.map": "/Han-Zhai-Module-20-React-Portfolio/static/js/main.d1a1b2f6.chunk.js.map",
+    "runtime-main.js": "/Han-Zhai-Module-20-React-Portfolio/static/js/runtime-main.9ddb1dc1.js",
+    "runtime-main.js.map": "/Han-Zhai-Module-20-React-Portfolio/static/js/runtime-main.9ddb1dc1.js.map",
+    "static/css/2.42d51ddf.chunk.css": "/Han-Zhai-Module-20-React-Portfolio/static/css/2.42d51ddf.chunk.css",
+    "static/js/2.83b7992d.chunk.js": "/Han-Zhai-Module-20-React-Portfolio/static/js/2.83b7992d.chunk.js",
+    "static/js/2.83b7992d.chunk.js.map": "/Han-Zhai-Module-20-React-Portfolio/static/js/2.83b7992d.chunk.js.map",
+    "index.html": "/Han-Zhai-Module-20-React-Portfolio/index.html",
+    "static/css/2.42d51ddf.chunk.css.map": "/Han-Zhai-Module-20-React-Portfolio/static/css/2.42d51ddf.chunk.css.map",
+    "static/css/main.0bf303dd.chunk.css.map": "/Han-Zhai-Module-20-React-Portfolio/static/css/main.0bf303dd.chunk.css.map",
+    "static/js/2.83b7992d.chunk.js.LICENSE.txt": "/Han-Zhai-Module-20-React-Portfolio/static/js/2.83b7992d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ddb1dc1.js",
+    "static/css/2.42d51ddf.chunk.css",
+    "static/js/2.83b7992d.chunk.js",
+    "static/css/main.0bf303dd.chunk.css",
+    "static/js/main.d1a1b2f6.chunk.js"
+  ]
+}
