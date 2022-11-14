@@ -1,5 +1,6 @@
 {
   "name": "Han Zhai Portfolio",
+  "homepage": "https://zhaihan001.github.io/Han-Zhai-Module-20-React-Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,6 +8,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^5.2.2",
+    "gh-pages": "^4.0.0",
     "react": "^17.0.1",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^17.0.1",
@@ -15,6 +17,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
