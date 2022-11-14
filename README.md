@@ -48,5 +48,5 @@ npm run build
 
 ## Deployment
 
-Github Repo: https://github.com/zhaihan001/Han-Zhai-Module-20-React-Portfolio
-Live Deployment: https://zhaihan001.github.io/Han-Zhai-Module-20-React-Portfolio/
+- Github Repo: https://github.com/zhaihan001/Han-Zhai-Module-20-React-Portfolio
+- Live Deployment: https://zhaihan001.github.io/Han-Zhai-Module-20-React-Portfolio/
