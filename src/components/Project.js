@@ -6,14 +6,16 @@ function Project({ projects }) {
     <CardGroup>
       <div className="cardContainer">
         {projects.map((project) => (
-          <Card className="cardBody">
+          <Card className="cardBody flex-row">
             <Card.Img
-              variant="top"
+              className="card-img-left"
               src={process.env.PUBLIC_URL + project.image}
             />
             <Card.Body>
-              <Card.Title>
-                <a href={project.githubRepo}>{project.title}</a>
+              <Card.Title className="cardTitle">
+                <a href={project.githubRepo} target="_blank" rel="noreferrer">
+                  {project.title}
+                </a>
               </Card.Title>
               <Card.Text>{project.summary}</Card.Text>
               <Card.Text>

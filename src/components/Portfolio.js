@@ -56,7 +56,7 @@ const projects = [
 function Portfolio() {
   return (
     <div className="mainBody portfolioBody">
-      <h1 className="content">Portfolio</h1>
+      <h2 className="content">Portfolio</h2>
 
       <Project projects={projects} />
     </div>

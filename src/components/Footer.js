@@ -1,4 +1,3 @@
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { FaLinkedin } from "react-icons/fa";
@@ -8,24 +7,22 @@ import { FaStackOverflow } from "react-icons/fa";
 export default function Footer() {
   return (
     <Navbar>
-      <Container>
-        <Nav>
-          <Nav.Link href="https://github.com/zhaihan001">
-            <FaGithub />
-            GitHub
-          </Nav.Link>
+      <Nav>
+        <Nav.Link href="https://github.com/zhaihan001">
+          <FaGithub />
+          GitHub
+        </Nav.Link>
 
-          <Nav.Link href="https://www.linkedin.com/in/han-zhai-0b8a751ba/">
-            <FaLinkedin />
-            LinkedIn
-          </Nav.Link>
+        <Nav.Link href="https://www.linkedin.com/in/han-zhai-0b8a751ba/">
+          <FaLinkedin />
+          LinkedIn
+        </Nav.Link>
 
-          <Nav.Link href="https://stackoverflow.com/users/19265797/hzhai">
-            <FaStackOverflow />
-            Stack Overflow
-          </Nav.Link>
-        </Nav>
-      </Container>
+        <Nav.Link href="https://stackoverflow.com/users/19265797/hzhai">
+          <FaStackOverflow />
+          Stack Overflow
+        </Nav.Link>
+      </Nav>
     </Navbar>
   );
 }

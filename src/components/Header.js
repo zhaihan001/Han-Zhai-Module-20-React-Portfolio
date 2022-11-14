@@ -23,13 +23,14 @@ export default function Header() {
   const pageChangeHandler = (page) => setCurrentPage(page);
   return (
     <div>
+      <h1>Han Zhai Webpage</h1>
       <nav className="navbar">
         <Navigation
           currentPage={currentPage}
           pageChangeHandler={pageChangeHandler}
         />
-        <section>{renderPage(currentPage)}</section>
       </nav>
+      <main>{renderPage(currentPage)}</main>
     </div>
   );
 }
